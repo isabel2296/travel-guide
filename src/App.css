@@ -1,38 +1,94 @@
 .App {
-  text-align: center;
+  margin:0;
+}
+body{
+  font-family: Inter;
+  font-style: normal;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar{
+  height: 100px;
+  background-color: #7FDBFF;
+  display: flex;
+  color: white; 
+  justify-content: center;
+  align-items: center;
+  font-size: 14.46px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-logo{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+/* Card CSS */
+.card-main{
+  display: flex;
+}
+.card {
+  height: 191px;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 12px;
+  color:#2B283A;
+  display: flex;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-main-info{
+  padding-left: 2%;
+  width: 479px;
+}
+.card-image{
+  width: 200px;
+  height: 180px;
+}
+.card-location{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -1em; 
+  margin-bottom: -1em;
+}
+.card-loc{
+  letter-spacing: .17em;
+  color: #2B283A;
+  text-transform: uppercase;
+  margin-left: -.6em;
+  font-weight: bold;
+}
+
+.card-loc-link{
+  padding-left: 2%;
+  color:#918E9B;
+  font-size: 10.24px;
+  text-decoration-line: underline ;
+}
+.card-info{
+}
+.card-info > h2 {
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: .0001em;
+}
+.card-info-date{
+  font-weight: bold;
+}
+.card-info-description{
+  line-height: 150%;
+}
+.loc-icon{
+  height: 15px;
+  padding: 10px;
+}
+
+/*card list*/
+.cards-list{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
