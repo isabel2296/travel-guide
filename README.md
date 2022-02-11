@@ -1,3 +1,11 @@
+
+# About Travel Guide
+Created by : Isabel Silva
+
+This static webpage is an example of utilizeing React's components, I've create a travel card components that will contain travel cards information that is retrieved from a data source (in this case a local data storage located in src/data.js) and render each item onto the UI. 
+Travel Guide displays destinations around their world and some trivia and an image. It also allows viewers to click on the location weblink to be sent out to a google maps locating the location itself. 
+# Screenshot of Travel-Guide Static Webpage
+![Win video demo](https://github.com/isabel2296/travel-guide/blob/master/src/images/travel-guide-ss.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
